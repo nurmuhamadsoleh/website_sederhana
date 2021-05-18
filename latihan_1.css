@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 16px;
+    line-height: 28px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./sativa.png);
+}
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: lightblue;
+    border-bottom: 5px solid salmon;
+    z-index: 9999;
+}
+.container {
+    background-color: white;
+    margin: 80px auto;
+    max-width: 960px;
+    position: relative;
+}
+.twitter {
+    position: absolute;
+    top:-23px;
+    right: -28px;
+    background-image: url(./twitter.png);
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+.header .brand {
+    font-size: 40px;
+}
+.header ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 20px;
+    list-style: none;
+}
+.header ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: salmon;
+    font-size: 14px;
+}
+.header ul li a:hover{
+    color: white;
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+.hero {
+    height: 350px;
+    background-image: url(./computer.jpg);
+    background-size: cover;
+    background-position: 0 -60px;
+    border-bottom: 5px solid lightseagreen;
+    border-top: 5px solid salmon;
+}
+.main {
+    padding: 20px;
+    padding-right: 10px;
+    width: 600px;
+    float: left;
+    box-sizing: border-box;
+}
+.main h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+.main p.penulis {
+    margin-left: -15px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.main p.penulis a{
+    text-decoration: none;
+    color: salmon;
+}
+.main p {
+    margin-bottom: 10px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 14px;
+}
+.sidebar {
+    float: right;
+    padding: 20px;
+    padding-left: 10px;
+    width: 300px;
+    box-sizing: border-box;
+}
+.sidebar h3{
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 10px;
+}
+.sidebar img{
+    display: block;
+    height: 100px;
+    width: 100px;
+    padding-right: 10px;
+    float: left;
+}
+.sidebar p {
+    font-size: 12px;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.footer {
+    background-color: #333;
+    padding: 10px;
+}
+.footer .copy {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+.clear {
+    clear: both;
+}
